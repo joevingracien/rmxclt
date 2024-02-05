@@ -1,6 +1,9 @@
+// Import necessary dependencies
+import React from "react";
 import { Canvas } from "@react-three/fiber";
 
-export default function Scene() {
+// Define the Scene component
+export function Scene() {
   return (
     <div>
       <Canvas>
